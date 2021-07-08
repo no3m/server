@@ -1,1 +1,11 @@
 Receive Antenna Switching Server
+
+- CAT using Hamlib (serial or TCP)
+- RS485 serial buss to control remote hardware switch
+- Cron syntax scheduler
+- Logs (RS485, cron, Server JSON, client JSON)
+- JSON for data transfer between server/clients
+- SQLite for database backend
+- Tables: Bands, Groups, Antennas, Groups->Bands, Antennas->Groups, Cronjobs
+
+... more to add
